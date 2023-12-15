@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.cricket{
+    text-decoration: none;
+    color:black;
+}
+
+.football{
+    text-decoration: none;
+    color:black;
+}
+
+header {
+    display: flex;
+
+    justify-content: space-between;
+    padding: 0 100px;
+    height: 80px;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    gap: 2px;
+    color: #5FBDFF;
+    align-items: baseline;
+}
+
+header .logo p {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+header .logo i {
+    color: #08ffe2;
+}
+
+header nav {
+    display: flex;
+    gap: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+header nav a:hover {
+    color: #3baaf9;
+
+}
+
+.hero {
+    height: calc(100vh - 80px);
+    padding-inline: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero .hero-img {
+    height: 70vh;
+    width: 70vh;
+    overflow: hidden;
+}
+
+.hero-img img {
+    height: 82vh;
+}
+
+.hero-text {
+    margin-top: 200px;
+}
+
+.hero-text h1 {
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.hero-text h1 span {
+    color: #5FBDFF;
+}
+
+.hero-text a {
+    background-color: #08ffe2;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 50px;
+    transition: all 0.3s ease-in-out;
+    width: 20%;
+}
+
+.hero-text a:hover {
+
+    background-color: #07c1ab;
+}
+
+.games {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    height: 60vh;
+}
+
+.games .card {
+    height: 50vh;
+    transition: transform 0.5s ease-in-out;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 15px rgb(237, 237, 237);
+}
+
+.games .card:hover {
+    transform: scale(1.05);
+}
+
+.card i {
+    display: flex;
+    justify-content: center;
+    font-size: 10rem;
+    color: #5FBDFF;
+}
+
+.card h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.card p {
+    text-align: center;
+    color: gray;
+}
+
+footer {
+    height: 50px;
+    background-color: darkslategrey;
+    color: white;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social {
+    display: flex;
+    gap: 30px;
+}
+
+.social i {
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social i:hover {
+    transform: scale(1.5);
+}

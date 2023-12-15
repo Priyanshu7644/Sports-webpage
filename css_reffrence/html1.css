@@ -1,0 +1,260 @@
+*{
+
+	margin: 0;
+
+	padding: 0;
+
+	font-family: arial;
+
+	box-sizing: border-box;
+
+}
+
+/* Description bar */
+footer {
+    background-color: #22223b;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            top: 0;
+            width: 100%
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 0 10px;
+    display: inline-block;
+    
+}
+
+footer a:hover {
+    background-color: #555;
+}
+
+footer p{
+    color:white;
+    padding:0px;
+    text-align:center;
+}
+
+
+/* NEVIGATION BAR */
+
+nav {
+    background-color: #22223b;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            top: 0;
+            width: 100%
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.logo{
+    border: 1px solid #0b0505;
+    border-radius: 4px;
+    padding: 5px;
+    width: 1280px;
+    height:640px;
+    margin:0;
+
+}
+
+p{
+    font-size:20px;
+    color:rgb(5, 2, 10);
+}
+
+/* Base button styles */
+div {
+    background-color: #cea8a8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+
+.text1 {
+    background-color: transparent;
+    color: #101010;
+    border: 1px solid #0f0909;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: #ededed;
+
+}
+
+.text1:hover {
+    background-color: rgba(107, 89, 12, 0.137);
+	transform: scale(1.1);
+    transition: transform 300ms ease-in;
+}
+
+
+div {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+
+.text2 {
+    background-color: transparent;
+    color: #101010;
+    border: 1px solid #120b0b;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: #ededed;
+}
+
+.text2:hover {
+    background-color: rgba(107, 89, 12, 0.137);
+    transform: scale(1.1);
+    transition: transform 300ms ease-in;
+}
+
+
+h1{
+    font-size:50px;
+    border: 1px solid #0e0606;
+  border-radius: 4px;
+  padding: 5px;
+  background-color:floralwhite;
+}
+
+h2{
+    font-size:30px;
+}
+
+p{
+    width:1000px;
+    text-align:center;
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+}
+
+body{
+
+	height: 100%;
+
+	display: grid;
+
+	place-items: center;
+
+	background-size: cover;
+
+}
+
+.livescore{
+    text-decoration: none;
+    border: 1px solid #0c0808;
+  border-radius: 4px;
+  padding: 5px;
+  background-color:aliceblue;
+}
+
+.livescore:hover{
+    color:chocolate
+}
+
+
+table{
+
+	width: 600px;
+
+	box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+
+}
+
+table, td, th{
+
+	padding: 20px;
+
+	border: 1px solid lightgray;
+
+	border-collapse: collapse;
+
+	text-align: center;
+
+	cursor: pointer;
+
+}
+
+td{
+
+	font-size: 18px;
+
+}
+
+th{
+
+	background-color: blue;
+
+	color: white;
+
+}
+
+tr:nth-child(odd){
+
+	background-color: lightblue;
+
+}
+
+tr:nth-child(odd):hover{
+
+	background-color: dodgerblue;
+
+	color: white;
+
+	transform: scale(1.005);
+
+	transition: transform 300ms ease-in;
+
+}
+
+tr:nth-child(even){
+
+	background-color: #ededed;
+
+}
+
+tr:nth-child(even):hover{
+
+	background-color: lightgray;
+
+	transform: scale(1.005);
+
+	transition: transform 300ms ease-in;
+
+
+}
+
+img{
+    height:300px;
+}
+
